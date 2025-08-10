@@ -1,4 +1,3 @@
-import { Fragment } from 'react' 
 import './Skills.css'
 import SkillBadge from '../../components/SkillBadge/SkillBadge'
 import {
@@ -56,19 +55,17 @@ const Skills = () => {
 
         {/* single compact grid */}
         <div className="skills-grid">
-          {groups.map((group, gi) => (
-            <React.Fragment key={group.title}>
-              <div className="skills-heading">{group.title}</div>
-              {group.items.map((skill, si) => (
-                <SkillBadge
-                  key={`${gi}-${si}`}
-                  name={skill.name}
-                  level={skill.level}
-                  icon={skill.icon}
-                />
-              ))}
-            </React.Fragment>
-          ))}
+          {groups.flatMap((group, gi) => [
+            <div className="skills-heading" key={`h-${gi}`}>{group.title}</div>,
+            ...group.items.map((skill, si) => (
+              <SkillBadge
+                key={`s-${gi}-${si}`}
+                name={skill.name}
+                level={skill.level}
+                icon={skill.icon}
+              />
+            ))
+          ])}
         </div>
       </div>
     </div>
