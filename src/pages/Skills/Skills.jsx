@@ -4,16 +4,16 @@ import {
   FaPython, FaDocker, FaGitAlt, FaLinux, FaDatabase,
   FaProjectDiagram, FaGlobeAmericas, FaBroadcastTower
 } from 'react-icons/fa'
-import { SiKubernetes, SiPandas, SiScikitlearn, SiPowerbi, SiJupyter, SiVscode } from 'react-icons/si'
+import {
+  SiKubernetes, SiPandas, SiScikitlearn, SiPowerbi, SiJupyter, SiVisualstudiocode
+} from 'react-icons/si'
 
 const Skills = () => {
   const skills = [
-    // Wireless & Networks
     { name: '4G/5G RAN Configurations', level: 95, icon: <FaBroadcastTower /> },
     { name: 'O-RAN', level: 90, icon: <FaBroadcastTower /> },
     { name: 'Network KPI Analysis', level: 92, icon: <FaProjectDiagram /> },
 
-    // AI & Automation
     { name: 'Python', level: 90, icon: <FaPython /> },
     { name: 'Pandas', level: 85, icon: <SiPandas /> },
     { name: 'scikit-learn', level: 80, icon: <SiScikitlearn /> },
@@ -22,15 +22,13 @@ const Skills = () => {
     { name: 'Symbolic Regression', level: 80, icon: <FaDatabase /> },
     { name: 'Power BI', level: 85, icon: <SiPowerbi /> },
 
-    // DevOps & Tools
     { name: 'Kubernetes', level: 85, icon: <SiKubernetes /> },
     { name: 'Docker', level: 85, icon: <FaDocker /> },
     { name: 'Git', level: 90, icon: <FaGitAlt /> },
     { name: 'Linux', level: 85, icon: <FaLinux /> },
-    { name: 'VS Code', level: 80, icon: <SiVscode /> },
+    { name: 'VS Code', level: 80, icon: <SiVisualstudiocode /> },
     { name: 'Jupyter', level: 85, icon: <SiJupyter /> },
 
-    // Languages
     { name: 'English (C2)', level: 100, icon: <FaGlobeAmericas /> },
     { name: 'German (B2)', level: 80, icon: <FaGlobeAmericas /> },
     { name: 'Persian (Native)', level: 100, icon: <FaGlobeAmericas /> }
