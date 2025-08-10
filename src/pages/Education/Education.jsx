@@ -4,16 +4,18 @@ import TimelineItem from '../../components/TimelineItem/TimelineItem'
 const Education = () => {
   const education = [
     {
-      date: '2016 - 2020',
-      title: 'Bachelor of Computer Science',
-      subtitle: 'University of Technology',
-      description: 'Specialized in Web Development and User Experience Design. Graduated with Honors (GPA: 3.8/4.0).'
+      date: 'Mar 2023 – 2025',
+      title: 'M.Sc. Electrical Engineering & Information Technology (Automation)',
+      subtitle: 'Deggendorf University of Applied Sciences, Germany',
+      description:
+        'Focus on intelligent systems, network management, and data-driven optimization. Master's thesis: RF Material Characterization Using AI — developed machine learning and symbolic modeling workflows to predict RF material permittivity from impedance spectroscopy data.'
     },
     {
-      date: '2014 - 2016',
-      title: 'Advanced Diploma in Programming',
-      subtitle: 'Tech Institute',
-      description: 'Focused on software development fundamentals, algorithms, and data structures.',
+      date: 'Sep 2008 – 2012',
+      title: 'B.Sc. Electrical Engineering (Electronics)',
+      subtitle: 'Ferdowsi University of Mashhad, Iran',
+      description:
+        'Specialized in electronics, communication systems, and signal processing. Bachelor’s thesis: Analysis and simulation of CDMA spreading codes to reduce multiple access interference and improve signal quality.',
       last: true
     }
   ]

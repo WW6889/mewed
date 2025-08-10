@@ -1,5 +1,5 @@
 import './Contact.css'
-import { FaPaperPlane, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa'
+import { FaPaperPlane, FaMapMarkerAlt, FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -35,8 +35,25 @@ const Contact = () => {
                 <p>+49 176 48994467</p>
               </div>
             </div>
+            <div className="contact-item animate-fadeIn delay-3">
+              <div className="contact-icon">
+                <FaLinkedin />
+              </div>
+              <div className="contact-text">
+                <h3>LinkedIn</h3>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/0midrahimi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    linkedin.com/in/0midrahimi
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
-          <form className="contact-form animate-fadeIn delay-3">
+          <form className="contact-form animate-fadeIn delay-4">
             <div className="form-group">
               <input type="text" placeholder="Your Name" required />
             </div>
