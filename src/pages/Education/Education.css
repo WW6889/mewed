@@ -1,0 +1,16 @@
+.education {
+    padding: 5rem 0;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .education {
+      padding: 3rem 0;
+    }
+  }
