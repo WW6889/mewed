@@ -1,5 +1,4 @@
 import './Projects.css'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const Projects = () => {
   const projects = [
@@ -8,21 +7,21 @@ const Projects = () => {
       description: `Developed machine learning models (LightGBM, XGBoost, Random Forest) to predict 
       link capacity using real network data. Applied feature reduction (PCA, Lasso) and SHAP-based 
       interpretability to analyze key throughput drivers in urban vs. rural deployments.`,
-      tags: ['Python', 'LightGBM', 'XGBoost', 'Random Forest', 'SHAP'],
+      tags: ['Python', 'LightGBM', 'XGBoost', 'Random Forest', 'SHAP']
     },
     {
       title: 'RF Material Characterization Using AI',
       description: `Designed ML and symbolic regression workflows to predict RF material permittivity 
       from impedance spectroscopy data. Improved RF sensor performance by optimizing preprocessing 
       techniques for high-frequency environments.`,
-      tags: ['Python', 'scikit-learn', 'Symbolic Regression', 'RF Sensors'],
+      tags: ['Python', 'scikit-learn', 'Symbolic Regression', 'RF Sensors']
     },
     {
       title: '5G Test Network Deployment on Kubernetes',
       description: `Built a scalable 5G testbed using Kubernetes and O-RAN components to simulate over 
       100 concurrent users. Conducted performance testing and optimized network parameters for better 
       throughput and latency.`,
-      tags: ['Kubernetes', 'O-RAN', '5G', 'Cloud-Native'],
+      tags: ['Kubernetes', 'O-RAN', '5G', 'Cloud-Native']
     }
   ]
 
@@ -41,16 +40,6 @@ const Projects = () => {
                     {tag}
                   </span>
                 ))}
-              </div>
-              <div className="project-links">
-                <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="project-icon" />
-                  Code
-                </a>
-                <a href={project.live} target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt className="project-icon" />
-                  Live Demo
-                </a>
               </div>
             </div>
           ))}
