@@ -4,25 +4,25 @@
 
 /* Group sections */
 .skills-group { 
-  margin-top: 2rem; 
+  margin-top: 1.5rem; /* was 2rem - reduced gap between groups */
 }
 
 .skills-group-title {
   font-size: 1.05rem;
   font-weight: 600;
   opacity: 0.9;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem; /* was 0.75rem - tighter under the title */
   padding-left: 8px;
   line-height: 1.2;
   border-left: 3px solid var(--accent, #6c63ff);
 }
 
-/* Existing grid */
+/* Grid for skills */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 1rem; /* slightly tighter under the group title */
+  gap: 1.5rem; /* was 2rem - reduced horizontal & vertical gap */
+  margin-top: 0.5rem; /* was 1rem - less space under title */
 }
 
 @media (max-width: 768px) {
