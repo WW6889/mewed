@@ -1,21 +1,26 @@
 import './Skills.css'
 import SkillBadge from '../../components/SkillBadge/SkillBadge'
-import { FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa'
-import { SiTypescript, SiRedux, SiGraphql, SiMongodb, SiFirebase } from 'react-icons/si'
+import { FaPython, FaDocker, FaGitAlt, FaLinux, FaDatabase, FaProjectDiagram } from 'react-icons/fa'
+import { SiKubernetes, SiPandas, SiScikitlearn, SiPowerbi, SiJupyter, SiVscode, SiOrang, SiGrafana } from 'react-icons/si'
 
 const Skills = () => {
   const skills = [
-    { name: 'React', level: 95, icon: <FaReact /> },
-    { name: 'JavaScript', level: 90, icon: <FaJs /> },
-    { name: 'TypeScript', level: 85, icon: <SiTypescript /> },
-    { name: 'Node.js', level: 80, icon: <FaNodeJs /> },
-    { name: 'HTML5', level: 95, icon: <FaHtml5 /> },
-    { name: 'CSS3', level: 90, icon: <FaCss3Alt /> },
-    { name: 'Redux', level: 85, icon: <SiRedux /> },
-    { name: 'GraphQL', level: 75, icon: <SiGraphql /> },
-    { name: 'MongoDB', level: 70, icon: <SiMongodb /> },
-    { name: 'Firebase', level: 75, icon: <SiFirebase /> },
-    { name: 'Git', level: 85, icon: <FaGitAlt /> }
+    { name: '4G/5G RAN Configurations', level: 95, icon: <SiOrang /> },
+    { name: 'O-RAN', level: 90, icon: <SiOrang /> },
+    { name: 'Network KPI Analysis', level: 92, icon: <FaProjectDiagram /> },
+    { name: 'Python', level: 90, icon: <FaPython /> },
+    { name: 'Pandas', level: 85, icon: <SiPandas /> },
+    { name: 'scikit-learn', level: 80, icon: <SiScikitlearn /> },
+    { name: 'ML Modeling', level: 85, icon: <FaProjectDiagram /> },
+    { name: 'Retrieval-Augmented Generation (RAG)', level: 75, icon: <FaDatabase /> },
+    { name: 'Symbolic Regression', level: 80, icon: <FaDatabase /> },
+    { name: 'Power BI', level: 85, icon: <SiPowerbi /> },
+    { name: 'Kubernetes', level: 85, icon: <SiKubernetes /> },
+    { name: 'Docker', level: 85, icon: <FaDocker /> },
+    { name: 'Git', level: 90, icon: <FaGitAlt /> },
+    { name: 'Linux', level: 85, icon: <FaLinux /> },
+    { name: 'VS Code', level: 80, icon: <SiVscode /> },
+    { name: 'Jupyter', level: 85, icon: <SiJupyter /> }
   ]
 
   return (
