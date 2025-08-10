@@ -8,6 +8,15 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Hidden Netlify registration form (lets Netlify detect the form at build time) -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
