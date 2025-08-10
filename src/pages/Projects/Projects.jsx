@@ -4,23 +4,29 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 const Projects = () => {
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'A full-featured online store with product listings, cart functionality, and secure checkout. Built with React, Node.js, and MongoDB.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Redux'],
+      title: 'ML-Based Link Capacity Estimation in 4G/5G Networks',
+      description: `Developed machine learning models (LightGBM, XGBoost, Random Forest) to predict 
+      link capacity using real network data. Applied feature reduction (PCA, Lasso) and SHAP-based 
+      interpretability to analyze key throughput drivers in urban vs. rural deployments.`,
+      tags: ['Python', 'LightGBM', 'XGBoost', 'Random Forest', 'SHAP'],
+      github: '#', // replace with your repo link
+      live: '#'
+    },
+    {
+      title: 'RF Material Characterization Using AI',
+      description: `Designed ML and symbolic regression workflows to predict RF material permittivity 
+      from impedance spectroscopy data. Improved RF sensor performance by optimizing preprocessing 
+      techniques for high-frequency environments.`,
+      tags: ['Python', 'scikit-learn', 'Symbolic Regression', 'RF Sensors'],
       github: '#',
       live: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'A productivity application for organizing tasks with drag-and-drop functionality, due dates, and team collaboration features.',
-      tags: ['React', 'Firebase', 'Material UI', 'React DnD'],
-      github: '#',
-      live: '#'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather application with 5-day forecasts, location search, and interactive maps showing weather patterns.',
-      tags: ['JavaScript', 'OpenWeather API', 'Chart.js', 'Geolocation'],
+      title: '5G Test Network Deployment on Kubernetes',
+      description: `Built a scalable 5G testbed using Kubernetes and O-RAN components to simulate over 
+      100 concurrent users. Conducted performance testing and optimized network parameters for better 
+      throughput and latency.`,
+      tags: ['Kubernetes', 'O-RAN', '5G', 'Cloud-Native'],
       github: '#',
       live: '#'
     }
