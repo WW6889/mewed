@@ -1,5 +1,4 @@
 import './Home.css'
-// Correct way to import the avatar
 import avatar from '/avatar.PNG'
 
 const Home = () => {
@@ -9,14 +8,17 @@ const Home = () => {
         <div className="home-content">
           <div className="home-text">
             <h1 className="animate-fadeIn">
-              Hi, I'm <span className="highlight"> Omid Rahimi </span>
+              Hi, I'm <span className="highlight">Omid Rahimi</span>
             </h1>
             <h2 className="animate-fadeIn delay-1">
-              <span className="typing">Frontend Developer</span>
+              <span className="typing">Network & Systems Engineer | AI & Automation</span>
             </h2>
             <p className="animate-fadeIn delay-2">
-              I build exceptional digital experiences with modern technologies.
-              Focused on creating clean, efficient, and user-friendly interfaces.
+              Multidisciplinary Network and Systems Engineer with over 9 years of experience
+              in wireless infrastructure (4G/5G), network performance optimization, and automation.
+              Skilled in Python, Kubernetes, and Linux-based scripting, with hands-on experience
+              deploying and testing telecom infrastructures, analyzing RF systems, and implementing
+              scalable AI-driven solutions.
             </p>
             <div className="home-actions animate-fadeIn delay-3">
               <a href="#contact" className="btn btn-primary">
