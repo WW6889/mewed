@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home-content">
           <div className="home-text">
             <h1 className="animate-fadeIn">
-              Hi, I'm <span className="highlight"> Omid Barranzuela </span>
+              Hi, I'm <span className="highlight"> Omid Rahimi </span>
             </h1>
             <h2 className="animate-fadeIn delay-1">
               <span className="typing">Frontend Developer</span>
