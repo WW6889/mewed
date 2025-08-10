@@ -14,7 +14,7 @@ const Contact = () => {
               </div>
               <div className="contact-text">
                 <h3>Location</h3>
-                <p>San Francisco, CA</p>
+                <p>Deggendorf, Germany</p>
               </div>
             </div>
             <div className="contact-item animate-fadeIn delay-1">
@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
               <div className="contact-text">
                 <h3>Email</h3>
-                <p>your.email@example.com</p>
+                <p>omid.rahimirad@gmail.com</p>
               </div>
             </div>
             <div className="contact-item animate-fadeIn delay-2">
@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
               <div className="contact-text">
                 <h3>Phone</h3>
-                <p>+1 (123) 456-7890</p>
+                <p>+49 176 48994467</p>
               </div>
             </div>
           </div>
