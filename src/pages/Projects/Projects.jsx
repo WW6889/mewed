@@ -9,8 +9,6 @@ const Projects = () => {
       link capacity using real network data. Applied feature reduction (PCA, Lasso) and SHAP-based 
       interpretability to analyze key throughput drivers in urban vs. rural deployments.`,
       tags: ['Python', 'LightGBM', 'XGBoost', 'Random Forest', 'SHAP'],
-      github: '#', // replace with your repo link
-      live: '#'
     },
     {
       title: 'RF Material Characterization Using AI',
@@ -18,8 +16,6 @@ const Projects = () => {
       from impedance spectroscopy data. Improved RF sensor performance by optimizing preprocessing 
       techniques for high-frequency environments.`,
       tags: ['Python', 'scikit-learn', 'Symbolic Regression', 'RF Sensors'],
-      github: '#',
-      live: '#'
     },
     {
       title: '5G Test Network Deployment on Kubernetes',
@@ -27,8 +23,6 @@ const Projects = () => {
       100 concurrent users. Conducted performance testing and optimized network parameters for better 
       throughput and latency.`,
       tags: ['Kubernetes', 'O-RAN', '5G', 'Cloud-Native'],
-      github: '#',
-      live: '#'
     }
   ]
 
