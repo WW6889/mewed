@@ -8,7 +8,7 @@ const Education = () => {
       title: 'M.Sc. Electrical Engineering & Information Technology (Automation)',
       subtitle: 'Deggendorf University of Applied Sciences, Germany',
       description: `Focus on intelligent systems, network management, and data-driven optimization. 
-      Master's thesis: RF Material Characterization Using AI — developed machine learning and symbolic 
+      Master's thesis: RF Material Characterization Using AI, developed machine learning and symbolic 
       modeling workflows to predict RF material permittivity from impedance spectroscopy data.`
     },
     {
