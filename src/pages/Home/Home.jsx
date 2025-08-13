@@ -11,14 +11,16 @@ const Home = () => {
               Hi, I'm <span className="highlight">Omid Rahimi</span>
             </h1>
             <h2 className="animate-fadeIn delay-1">
-              <span className="typing">Network & Systems Engineer | AI & Automation</span>
+              <span className="typing">Wireless & AI-Driven Network Engineer | Automation & Optimization</span>
             </h2>
             <p className="animate-fadeIn delay-2">
-              Multidisciplinary Network and Systems Engineer with over 9 years of experience
-              in wireless infrastructure (4G/5G), network performance optimization, and automation.
-              Skilled in Python, Kubernetes, and Linux-based scripting, with hands-on experience
-              deploying and testing telecom infrastructures, analyzing RF systems, and implementing
-              scalable AI-driven solutions.
+              Results-driven Network and Systems Engineer with 9+ years of experience in 
+              wireless infrastructure (4G/5G, O-RAN), network performance optimization, and 
+              automation. Skilled in Python, Kubernetes, and Linux-based scripting, with 
+              proven success applying AI/ML to optimize telecom networks, analyze RF systems, 
+              and enhance connectivity performance. Combines deep telecom expertise with 
+              advanced data-driven methodologies to deliver scalable, high-performance solutions 
+              for next-generation networks.
             </p>
             <div className="home-actions animate-fadeIn delay-3">
               <a href="#contact" className="btn btn-primary">
